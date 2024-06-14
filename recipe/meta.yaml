@@ -1,5 +1,5 @@
 {% set name = "vvm" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vvm-{{ version }}.tar.gz
-  sha256: a1474915b12e0084299d2c7fe7d72434fa99c00ebb117e400756a5d7e0edac2a
+  sha256: b1154b5ac3b1568af60f97c415b73d9e216eee98c0fbbfb646401afe7a9de034
 
 build:
   number: 0
